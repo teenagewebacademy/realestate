@@ -1,0 +1,11 @@
+@import './variable';
+
+.dark_wave{
+    fill:map-get($theme-colors,dark)
+}
+.light_wave{
+    fill:map-get($theme-colors,light)
+}
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss'
